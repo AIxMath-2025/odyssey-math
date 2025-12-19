@@ -88,7 +88,7 @@ def process_math_problems(input_file, output_file):
                 outfile.write(output_json + '\n')  # Write to file
 
 # Specify your input and output files
-input_file_path = '/content/odyssey-math/AIxMathWorkShop.jsonl'
+input_file_path = '/content/odyssey-math/Workshop_questions.jsonl'
 output_file_path = 'jsonl/deepseek-v3-Instruct-solution.jsonl'
 
 # Call the processing function
