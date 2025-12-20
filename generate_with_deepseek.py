@@ -89,7 +89,7 @@ def process_math_problems(input_file, output_file):
 
 # Specify your input and output files
 input_file_path = '/content/odyssey-math/Workshop_questions.jsonl'
-output_file_path = 'jsonl/deepseek-v3-Instruct-solution.jsonl'
+output_file_path = 'jsonl/deepseek-v3-Workshop-solution.jsonl'
 
 # Call the processing function
 process_math_problems(input_file_path, output_file_path)
